@@ -1,0 +1,18 @@
+{
+    "scripts": {
+        "start": "npx parcel --open --no-cache --out-dir ./dist ./public/index.html",
+        "build": "npx parcel build --no-cache --out-dir ./docs --public-url ./ --no-source-maps ./public/index.html"
+    },
+    "devDependencies": {
+        "@types/react": "^16.4.9",
+        "@types/react-dom": "^16.0.7",
+        "@types/three": "^0.92.17",
+        "parcel": "^1.9.7",
+        "typescript": "^3.0.1"
+    },
+    "dependencies": {
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "three": "^0.95.0"
+    }
+}
